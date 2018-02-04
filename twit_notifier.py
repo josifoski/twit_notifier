@@ -87,8 +87,8 @@ def strip_nasty_characters(input):
 # I personally have good experience with smtp2go.com
 # You can use other smtp server, if you decide to use smtp2go, then you'll need to create
 # zimsmtp2go.dat file and put smtp password there in first line
-email_address_from = 'zimrie7@gmail.com'
-email_address_to = ['ajosifoski@yahoo.com']
+email_address_from = 'your_trivial_email@somewhere.com'
+email_address_to = ['your_receive_email@yahoo.com']
 password = open(dir_in + 'zimsmtp2go.dat').read().strip()
 password = password.strip()
 smtpServer = 'mail.smtp2go.com'
