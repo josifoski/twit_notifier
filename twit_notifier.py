@@ -1,12 +1,13 @@
 #! /usr/bin/env python3.5
 
 # Script for sending email notification for new tweet from python list of users #Stalking
-# By Aleksandar Josifoski https://twitter.com/josifsk; https://frutarian-travellers.blogspot.mk; josifoski@gmail.com;
+# By Aleksandar Josifoski https://twitter.com/josifsk;
 # 2018 January 21; February 4;
 # Script is (*) depending (*) on using tweepy python module for twitter connection
 # Most easy way to install from command line: pip3 install -U tweepy
-# (*) as me for stalking not only tweets using tweetcaster app but also + replies from Lady Tar♡n https://twitter.com/tarynsouthern (*)
-# Licence TA
+# (*) as me for stalking not only tweets using tweetcaster app but also + replies as trying to define stalking as Love
+# and to lower dependence from empty not inspired info via twitter, no $io at present(*)
+# Licence GPL
 # For local/server use
 
 import tweepy
@@ -19,7 +20,7 @@ import sys
 import datetime
 
 # dir_in is input directory (where for example script is placed), change it accordingly
-dir_in = "/home/ntra/Desktop/11QueenTar♡nJosifoski/tw_ins_fb_yt_notifiers/"
+dir_in = ""
 
 log = codecs.open(dir_in + 'twit_notifier_log.txt', 'a', 'utf-8')
 nowlong = str(datetime.datetime.now())[:16].replace('-', '')
